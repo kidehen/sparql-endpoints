@@ -1,0 +1,1976 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+
+
+<http://140.109.28.64:2020/sparql/> a sd:Service ;
+	sd:endpoint "http://140.109.28.64:2020/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://156.35.31.156/sparql/> a sd:Service ;
+	sd:endpoint "http://156.35.31.156/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://156.35.82.103/sparql/> a sd:Service ;
+	sd:endpoint "http://156.35.82.103/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://193.145.57.56:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://193.145.57.56:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://91.239.64.176:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://91.239.64.176:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://abs.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://abs.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://academia6.poolparty.biz/PoolParty/sparql/Tesauro-Materias-BUPM/> a sd:Service ;
+	sd:endpoint "http://academia6.poolparty.biz/PoolParty/sparql/Tesauro-Materias-BUPM" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://acm.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://acm.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://adl-gazetteer.geog.ucsb.edu:3030/adl/sparql/> a sd:Service ;
+	sd:endpoint "http://adl-gazetteer.geog.ucsb.edu:3030/adl/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://aemet.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://aemet.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://afcsid.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://afcsid.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://affymetrix.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://affymetrix.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://agencies.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://agencies.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://agrinepaldata.com/sparql/> a sd:Service ;
+	sd:endpoint "http://agrinepaldata.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://aksw.org/sparql/> a sd:Service ;
+	sd:endpoint "http://aksw.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://alaska.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://alaska.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://aliada.scanbit.net:8891/sparql/> a sd:Service ;
+	sd:endpoint "http://aliada.scanbit.net:8891/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/bricklink/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/bricklink/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/english-heritage/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/english-heritage/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/federal-reserve-economic-data/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/federal-reserve-economic-data/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/foodista/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/foodista/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/musicnet/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/musicnet/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/nasa/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/nasa/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/openflights-routes/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/openflights-routes/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/pali-english-lexicon/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/pali-english-lexicon/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/prelinger-archives/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/prelinger-archives/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/renewable-energy-generators/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/renewable-energy-generators/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/sanskrit-english-lexicon/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/sanskrit-english-lexicon/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/un-hazardous-material-numbers/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/un-hazardous-material-numbers/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql/> a sd:Service ;
+	sd:endpoint "http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/airports/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/airports/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/bbc-backstage/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/bbc-backstage/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/bbc-wildlife/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/bbc-wildlife/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/climb/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/climb/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/datagovuk/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/datagovuk/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/elections/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/elections/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/eumida/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/eumida/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/eupmedia/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/eupmedia/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/eurobarometer/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/eurobarometer/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/eutc-productions/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/eutc-productions/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/gunnbib-digitalmanuskripter/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/gunnbib-digitalmanuskripter/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/jgoodwin-genealogy/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/jgoodwin-genealogy/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/massobservation/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/massobservation/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/metoffice/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/metoffice/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/moseley/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/moseley/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/musicbrainz/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/musicbrainz/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/nvd/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/nvd/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/openlibrary/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/openlibrary/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/ordnance-survey/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/ordnance-survey/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/pbac/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/pbac/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/pokedex/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/pokedex/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/productdb/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/productdb/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/rsinger-dev4/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/rsinger-dev4/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/schemapedia/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/schemapedia/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/smcjournals/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/smcjournals/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/theviewfrom/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/theviewfrom/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/trafficscotland/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/trafficscotland/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://api.talis.com/stores/whoiswho/services/sparql/> a sd:Service ;
+	sd:endpoint "http://api.talis.com/stores/whoiswho/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://apps.morelab.deusto.es/labman/sparql/> a sd:Service ;
+	sd:endpoint "http://apps.morelab.deusto.es/labman/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://apps.morelab.deusto.es/teseo/sparql/> a sd:Service ;
+	sd:endpoint "http://apps.morelab.deusto.es/teseo/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://aseg.cs.concordia.ca/secold/sparqlendpoint/> a sd:Service ;
+	sd:endpoint "http://aseg.cs.concordia.ca/secold/sparqlendpoint" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://babelnet.org/sparql//> a sd:Service ;
+	sd:endpoint "http://babelnet.org/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://beta.sparql.uniprot.org/> a sd:Service ;
+	sd:endpoint "http://beta.sparql.uniprot.org" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://bfs.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://bfs.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://bibleontology.com/sparql/index.jsp/> a sd:Service ;
+	sd:endpoint "http://bibleontology.com/sparql/index.jsp" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://biolit.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://biolit.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://biomodels.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://biomodels.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://biopax.biomodels.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://biopax.biomodels.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://biopax.kegg.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://biopax.kegg.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://biopax.pharmgkb.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://biopax.pharmgkb.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://bioportal.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://bioportal.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://biordf.net/sparql/> a sd:Service ;
+	sd:endpoint "http://biordf.net/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://bis.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://bis.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://bnb.data.bl.uk/sparql/> a sd:Service ;
+	sd:endpoint "http://bnb.data.bl.uk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://budapest.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://budapest.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://catalogus-professorum.org/sparql/> a sd:Service ;
+	sd:endpoint "http://catalogus-professorum.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cau.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://cau.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cb.semsol.org/sparql/> a sd:Service ;
+	sd:endpoint "http://cb.semsol.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ccny-cuny.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://ccny-cuny.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cdrewu.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://cdrewu.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://chebi.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://chebi.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://chembl.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://chembl.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://citeseer.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://citeseer.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://clinicaltrials.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://clinicaltrials.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cordis.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://cordis.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://corpora.nlp2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://corpora.nlp2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://courseware.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://courseware.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cr.eionet.europa.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://cr.eionet.europa.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cr3.eionet.europa.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://cr3.eionet.europa.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://crashmap.okfn.gr:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://crashmap.okfn.gr:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://crime.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://crime.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://crm.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://crm.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://crtm.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://crtm.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://crystaleye.ch.cam.ac.uk/sparql//> a sd:Service ;
+	sd:endpoint "http://crystaleye.ch.cam.ac.uk/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ctd.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://ctd.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://cultura.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://cultura.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://curriculum.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://curriculum.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dacura.cs.tcd.ie/sparql/> a sd:Service ;
+	sd:endpoint "http://dacura.cs.tcd.ie/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://darmstadt.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://darmstadt.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dartmouth.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://dartmouth.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data-gov.ie/sparql/> a sd:Service ;
+	sd:endpoint "http://data-gov.ie/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.aalto.fi/sparql/> a sd:Service ;
+	sd:endpoint "http://data.aalto.fi/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.allie.dbcls.jp/sparql/> a sd:Service ;
+	sd:endpoint "http://data.allie.dbcls.jp/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.archiveshub.ac.uk/sparql/> a sd:Service ;
+	sd:endpoint "http://data.archiveshub.ac.uk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.ariadne-eu.org/sparql.tpl/> a sd:Service ;
+	sd:endpoint "http://data.ariadne-eu.org/sparql.tpl" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.bib.uni-mannheim.de/sparql/> a sd:Service ;
+	sd:endpoint "http://data.bib.uni-mannheim.de/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.bibbase.org:2020/sparql/> a sd:Service ;
+	sd:endpoint "http://data.bibbase.org:2020/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.cnr.it/sparql-proxy//> a sd:Service ;
+	sd:endpoint "http://data.cnr.it/sparql-proxy/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.copac.ac.uk/sparql/> a sd:Service ;
+	sd:endpoint "http://data.copac.ac.uk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.ege.edu.tr/ep/sparql/> a sd:Service ;
+	sd:endpoint "http://data.ege.edu.tr/ep/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.fundacionctic.org/sparql/> a sd:Service ;
+	sd:endpoint "http://data.fundacionctic.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.globalchange.gov/sparql/> a sd:Service ;
+	sd:endpoint "http://data.globalchange.gov/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.lenka.no/sparql/> a sd:Service ;
+	sd:endpoint "http://data.lenka.no/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.linkedct.org/sparql/> a sd:Service ;
+	sd:endpoint "http://data.linkedct.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.linkededucation.org/request/lak-conference/sparql/> a sd:Service ;
+	sd:endpoint "http://data.linkededucation.org/request/lak-conference/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.linkededucation.org/request/ted/sparql/> a sd:Service ;
+	sd:endpoint "http://data.linkededucation.org/request/ted/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.linkedmdb.org/sparql/> a sd:Service ;
+	sd:endpoint "http://data.linkedmdb.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://thedatahub.org/dataset/slidewiki-rdf-sparql/> a sd:Service ;
+	sd:endpoint "http://thedatahub.org/dataset/slidewiki-rdf-sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.lod2.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://data.lod2.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.logainm.ie/sparql/> a sd:Service ;
+	sd:endpoint "http://data.logainm.ie/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.ngii.go.kr/SPARQL/sparql/> a sd:Service ;
+	sd:endpoint "http://data.ngii.go.kr/SPARQL/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.nobelprize.org/sparql/> a sd:Service ;
+	sd:endpoint "http://data.nobelprize.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.oceandrilling.org/sparql/> a sd:Service ;
+	sd:endpoint "http://data.oceandrilling.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.opendiscoveryspace.eu/sparql.tpl/> a sd:Service ;
+	sd:endpoint "http://data.opendiscoveryspace.eu/sparql.tpl" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.organic-edunet.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://data.organic-edunet.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.ox.ac.uk/sparql//> a sd:Service ;
+	sd:endpoint "http://data.ox.ac.uk/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.rism.info/sparql/> a sd:Service ;
+	sd:endpoint "http://data.rism.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.semanticuniverse.com/sparql/> a sd:Service ;
+	sd:endpoint "http://data.semanticuniverse.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.semanticweb.org/sparql/> a sd:Service ;
+	sd:endpoint "http://data.semanticweb.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.uni-muenster.de/sparql/> a sd:Service ;
+	sd:endpoint "http://data.uni-muenster.de/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.utpl.edu.ec/ecuadorresearch/lod/sparql/> a sd:Service ;
+	sd:endpoint "http://data.utpl.edu.ec/ecuadorresearch/lod/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://data.utpl.edu.ec/utpl/lod/sparql/> a sd:Service ;
+	sd:endpoint "http://data.utpl.edu.ec/utpl/lod/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dati.camera.it/sparql/> a sd:Service ;
+	sd:endpoint "http://dati.camera.it/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://datos.bcn.cl/sparql/> a sd:Service ;
+	sd:endpoint "http://datos.bcn.cl/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://datos.bne.es/sparql/> a sd:Service ;
+	sd:endpoint "http://datos.bne.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dblp.l3s.de/d2r/sparql/> a sd:Service ;
+	sd:endpoint "http://dblp.l3s.de/d2r/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dblp.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://dblp.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbsnp.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://dbsnp.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbtune.org/bbc/peel/sparql//> a sd:Service ;
+	sd:endpoint "http://dbtune.org/bbc/peel/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbtune.org/classical/sparql//> a sd:Service ;
+	sd:endpoint "http://dbtune.org/classical/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbtune.org/jamendo/sparql//> a sd:Service ;
+	sd:endpoint "http://dbtune.org/jamendo/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbtune.org/magnatune/sparql//> a sd:Service ;
+	sd:endpoint "http://dbtune.org/magnatune/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbtune.org/musicbrainz/sparql/> a sd:Service ;
+	sd:endpoint "http://dbtune.org/musicbrainz/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dbtune.org/myspace/sparql//> a sd:Service ;
+	sd:endpoint "http://dbtune.org/myspace/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://de.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://de.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://deepblue.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://deepblue.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://deploy.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://deploy.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dewey.info/sparql.php/> a sd:Service ;
+	sd:endpoint "http://dewey.info/sparql.php" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://digitaleconomy.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://digitaleconomy.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://diwis.imis.athena-innovation.gr:8181/sparql/> a sd:Service ;
+	sd:endpoint "http://diwis.imis.athena-innovation.gr:8181/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://doc.metalex.eu:8000/sparql//> a sd:Service ;
+	sd:endpoint "http://doc.metalex.eu:8000/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dotac.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://dotac.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://drugbank.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://drugbank.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://dutchshipsandsailors.nl/data/sparql//> a sd:Service ;
+	sd:endpoint "http://dutchshipsandsailors.nl/data/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ecb.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://ecb.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ecb.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://ecb.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ecowlim.tfri.gov.tw/sparql/query/> a sd:Service ;
+	sd:endpoint "http://ecowlim.tfri.gov.tw/sparql/query" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ecs.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://ecs.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eculture2.cs.vu.nl:5020/sparql//> a sd:Service ;
+	sd:endpoint "http://eculture2.cs.vu.nl:5020/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eculture2.cs.vu.nl:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://eculture2.cs.vu.nl:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://el.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://el.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://en.openei.org/sparql/> a sd:Service ;
+	sd:endpoint "http://en.openei.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://enaktingpsi.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://enaktingpsi.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://enipedia.tudelft.nl/sparql/> a sd:Service ;
+	sd:endpoint "http://enipedia.tudelft.nl/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://environment.data.gov.uk/sparql/bwq/query/> a sd:Service ;
+	sd:endpoint "http://environment.data.gov.uk/sparql/bwq/query" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://epo.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://epo.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eprints.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://eprints.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://epsrc.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://epsrc.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://era.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://era.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eris.okfn.org/sparql/> a sd:Service ;
+	sd:endpoint "http://eris.okfn.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://es.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://es.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eu.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://eu.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eur-lex.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://eur-lex.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eurecom.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://eurecom.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://europeana.ontotext.com/sparql/> a sd:Service ;
+	sd:endpoint "http://europeana.ontotext.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://thedatahub.org/dataset/europeana-sparql/> a sd:Service ;
+	sd:endpoint "http://thedatahub.org/dataset/europeana-sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eurostat.linked-statistics.org/sparql/> a sd:Service ;
+	sd:endpoint "http://eurostat.linked-statistics.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://eventmedia.eurecom.fr/sparql/> a sd:Service ;
+	sd:endpoint "http://eventmedia.eurecom.fr/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://extbi.lab.aau.dk/sparql/> a sd:Service ;
+	sd:endpoint "http://extbi.lab.aau.dk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://factforge.net/sparql/> a sd:Service ;
+	sd:endpoint "http://factforge.net/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://famu.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://famu.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://fao.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://fao.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://fintrans.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://fintrans.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://foodpedia.tk/sparql/> a sd:Service ;
+	sd:endpoint "http://foodpedia.tk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://foreign.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://foreign.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://foreign.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://foreign.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://fr.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://fr.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://frb.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://frb.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ft.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://ft.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://fun.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://fun.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://futurewavehosting.com:3030/my-family-lineage/sparql/> a sd:Service ;
+	sd:endpoint "http://futurewavehosting.com:3030/my-family-lineage/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://gdlc.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://gdlc.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://genage.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://genage.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://genbank.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://genbank.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://gendr.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://gendr.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://geo.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://geo.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://goa.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://goa.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://gov.tso.co.uk/coins/sparql/> a sd:Service ;
+	sd:endpoint "http://gov.tso.co.uk/coins/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://gov.tso.co.uk/dclg/sparql/> a sd:Service ;
+	sd:endpoint "http://gov.tso.co.uk/dclg/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://gov.tso.co.uk/legislation/sparql/> a sd:Service ;
+	sd:endpoint "http://gov.tso.co.uk/legislation/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://gov.tso.co.uk/transport/sparql/> a sd:Service ;
+	sd:endpoint "http://gov.tso.co.uk/transport/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://govwild.org/sparql/> a sd:Service ;
+	sd:endpoint "http://govwild.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://greek-lod.auth.gr/fire-brigade/sparql/> a sd:Service ;
+	sd:endpoint "http://greek-lod.auth.gr/fire-brigade/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://greek-lod.auth.gr/police/sparql/> a sd:Service ;
+	sd:endpoint "http://greek-lod.auth.gr/police/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://greek-lod.math.auth.gr/intervalue/sparql/> a sd:Service ;
+	sd:endpoint "http://greek-lod.math.auth.gr/intervalue/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://greek-lod.math.auth.gr/kalikratis/sparql/> a sd:Service ;
+	sd:endpoint "http://greek-lod.math.auth.gr/kalikratis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://harvard.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://harvard.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://hawaii.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://hawaii.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://hcls.deri.org/sparql/> a sd:Service ;
+	sd:endpoint "http://hcls.deri.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://healthdata.tw.rpi.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://healthdata.tw.rpi.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://helheim.deusto.es/bizkaisense/sparql/> a sd:Service ;
+	sd:endpoint "http://helheim.deusto.es/bizkaisense/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://helheim.deusto.es/hedatuz/sparql/> a sd:Service ;
+	sd:endpoint "http://helheim.deusto.es/hedatuz/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://helheim.deusto.es/linkedstats/sparql/> a sd:Service ;
+	sd:endpoint "http://helheim.deusto.es/linkedstats/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://heritagedata.org/live/sparql/> a sd:Service ;
+	sd:endpoint "http://heritagedata.org/live/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://hgnc.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://hgnc.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://homologene.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://homologene.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://howard.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://howard.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://http://crashmap.okfn.gr:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://http://crashmap.okfn.gr:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://http://opendata.intellidomo.es:8080/sparql//> a sd:Service ;
+	sd:endpoint "http://http://opendata.intellidomo.es:8080/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://hunter-cuny.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://hunter-cuny.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ibm.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://ibm.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ichoose.tw.rpi.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://ichoose.tw.rpi.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://id.sgcb.mcu.es/sparql/> a sd:Service ;
+	sd:endpoint "http://id.sgcb.mcu.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://identifiers.org/services/sparql/> a sd:Service ;
+	sd:endpoint "http://identifiers.org/services/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ieee.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://ieee.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ieeevis.tw.rpi.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://ieeevis.tw.rpi.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://imf.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://imf.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://inoh.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://inoh.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://interpro.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://interpro.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://iproclass.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://iproclass.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://irefindex.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://irefindex.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://irit.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://irit.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://iserve.kmi.open.ac.uk/iserve/sparql/> a sd:Service ;
+	sd:endpoint "http://iserve.kmi.open.ac.uk/iserve/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://italy.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://italy.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ja.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://ja.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://jisc.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://jisc.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://jsu.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://jsu.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kaiko.getalp.org/sparql/> a sd:Service ;
+	sd:endpoint "http://kaiko.getalp.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kasabi.com/api/sparql-endpoint-foodista/> a sd:Service ;
+	sd:endpoint "http://kasabi.com/api/sparql-endpoint-foodista" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kaunas.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://kaunas.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kdata.kr/sparql/endpoint.jsp/> a sd:Service ;
+	sd:endpoint "http://kdata.kr/sparql/endpoint.jsp" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kegg.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://kegg.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kent.zpr.fer.hr:8080/educationalProgram/sparql/> a sd:Service ;
+	sd:endpoint "http://kent.zpr.fer.hr:8080/educationalProgram/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kisti.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://kisti.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://kwijibo.talis.com/latc-linksets/sparql/> a sd:Service ;
+	sd:endpoint "http://kwijibo.talis.com/latc-linksets/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://laas.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://laas.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lab.environment.data.gov.au/sparql/> a sd:Service ;
+	sd:endpoint "http://lab.environment.data.gov.au/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lab3.libris.kb.se/sparql/> a sd:Service ;
+	sd:endpoint "http://lab3.libris.kb.se/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://thedatahub.org/dataset/sparql-endpoint-status/> a sd:Service ;
+	sd:endpoint "http://thedatahub.org/dataset/sparql-endpoint-status" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ld.panlex.org/sparql/> a sd:Service ;
+	sd:endpoint "http://ld.panlex.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ldf.fi/ww1lod/sparql/> a sd:Service ;
+	sd:endpoint "http://ldf.fi/ww1lod/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://libver.math.auth.gr/sparql/> a sd:Service ;
+	sd:endpoint "http://libver.math.auth.gr/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linguistic.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://linguistic.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linguistic.linkeddata.es/terminesp/sparql-editor/> a sd:Service ;
+	sd:endpoint "http://linguistic.linkeddata.es/terminesp/sparql-editor" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://link.informatics.stonybrook.edu/sparql//> a sd:Service ;
+	sd:endpoint "http://link.informatics.stonybrook.edu/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linked-data.org/sparql/> a sd:Service ;
+	sd:endpoint "http://linked-data.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linked.opendata.cz/sparql/> a sd:Service ;
+	sd:endpoint "http://linked.opendata.cz/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkeddata.finki.ukim.mk/sparql/> a sd:Service ;
+	sd:endpoint "http://linkeddata.finki.ukim.mk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkeddata.ge.imati.cnr.it:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://linkeddata.ge.imati.cnr.it:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkeddata.uriburner.com/sparql/> a sd:Service ;
+	sd:endpoint "http://linkeddata.uriburner.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkeddata4.dia.fi.upm.es:8907/sparql/> a sd:Service ;
+	sd:endpoint "http://linkeddata4.dia.fi.upm.es:8907/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkedgeodata.org/sparql//> a sd:Service ;
+	sd:endpoint "http://linkedgeodata.org/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkedlifedata.com/sparql/> a sd:Service ;
+	sd:endpoint "http://linkedlifedata.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkedopencommerce.com/sparql/> a sd:Service ;
+	sd:endpoint "http://linkedopencommerce.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkedspending.aksw.org/sparql/> a sd:Service ;
+	sd:endpoint "http://linkedspending.aksw.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkedspl.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://linkedspl.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://linkedu.eu/catalogue/sparql//> a sd:Service ;
+	sd:endpoint "http://linkedu.eu/catalogue/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lisbon.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://lisbon.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://live.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://live.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lobid.org/sparql//> a sd:Service ;
+	sd:endpoint "http://lobid.org/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.ac/bdls/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.ac/bdls/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.apc.gov.tw/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.apc.gov.tw/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.b3kat.de/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.b3kat.de/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.euscreen.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.euscreen.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.gesis.org/thesoz/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.gesis.org/thesoz/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.hebis.de/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.hebis.de/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.kaist.ac.kr/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.kaist.ac.kr/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.my-eventos.com/en/services/sparql//> a sd:Service ;
+	sd:endpoint "http://lod.my-eventos.com/en/services/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.openlinksw.com/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.openlinksw.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.sztaki.hu/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.sztaki.hu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lod.xdams.org/sparql/> a sd:Service ;
+	sd:endpoint "http://lod.xdams.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lofd.tw.rpi.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://lofd.tw.rpi.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://logd.tw.rpi.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://logd.tw.rpi.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lsd.taxonconcept.org/sparql/> a sd:Service ;
+	sd:endpoint "http://lsd.taxonconcept.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://lsr.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://lsr.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://meducator.open.ac.uk/resourcesrestapi/rest/meducator/sparql/> a sd:Service ;
+	sd:endpoint "http://meducator.open.ac.uk/resourcesrestapi/rest/meducator/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://meharry.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://meharry.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://mesh.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://mesh.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://mgi.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://mgi.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://miuras.inf.um.es/sparql/> a sd:Service ;
+	sd:endpoint "http://miuras.inf.um.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://mlode.nlp2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://mlode.nlp2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://modip.aueb.gr/d2rq/sparql/> a sd:Service ;
+	sd:endpoint "http://modip.aueb.gr/d2rq/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://montana.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://montana.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://msm.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://msm.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://n-lex.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://n-lex.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ncbigene.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://ncbigene.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ndb.publink.lod2.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://ndb.publink.lod2.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ndc.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://ndc.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://netpath.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://netpath.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://neuroweb.med.yale.edu:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://neuroweb.med.yale.edu:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://newcastle.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://newcastle.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://nextprot.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://nextprot.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://nl.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://nl.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://notube.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://notube.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://nsf.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://nsf.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://oai.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://oai.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://oecd.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://oecd.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ohsu.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://ohsu.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://omim.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://omim.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://onto.beef.org.pl/sparql/> a sd:Service ;
+	sd:endpoint "http://onto.beef.org.pl/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://opendap.tw.rpi.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://opendap.tw.rpi.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://opendata-bundestag.de/sparql/> a sd:Service ;
+	sd:endpoint "http://opendata-bundestag.de/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://opendata.aragon.es/sparql/> a sd:Service ;
+	sd:endpoint "http://opendata.aragon.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://opendata.ccd.uniroma2.it/LMF/sparql/select/> a sd:Service ;
+	sd:endpoint "http://opendata.ccd.uniroma2.it/LMF/sparql/select" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://opendatacommunities.org/sparql/> a sd:Service ;
+	sd:endpoint "http://opendatacommunities.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://openuplabs.tso.co.uk/sparql/gov-education/> a sd:Service ;
+	sd:endpoint "http://openuplabs.tso.co.uk/sparql/gov-education" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://orphanet.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://orphanet.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://os.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://os.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://os.services.tso.co.uk/geo/sparql/> a sd:Service ;
+	sd:endpoint "http://os.services.tso.co.uk/geo/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pathwaycommons.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://pathwaycommons.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pharmgkb.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://pharmgkb.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://photos.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://photos.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pid.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://pid.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pisa.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://pisa.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://platform.uberblic.org/api/v1/sparql/> a sd:Service ;
+	sd:endpoint "http://platform.uberblic.org/api/v1/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pomelo.iis.sinica.edu.tw:2020/sparql/> a sd:Service ;
+	sd:endpoint "http://pomelo.iis.sinica.edu.tw:2020/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://prelex.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://prelex.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://provenanceweb.org/sparql/> a sd:Service ;
+	sd:endpoint "http://provenanceweb.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://psm.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://psm.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pt.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://pt.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pubchem.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://pubchem.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://publicspending.medialab.ntua.gr/sparql/> a sd:Service ;
+	sd:endpoint "http://publicspending.medialab.ntua.gr/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://pubmed.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://pubmed.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://purl.org/openbibliosets/iucrsparql/> a sd:Service ;
+	sd:endpoint "http://purl.org/openbibliosets/iucrsparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://purl.org/twc/arrayexpress/virtuoso/sparql/> a sd:Service ;
+	sd:endpoint "http://purl.org/twc/arrayexpress/virtuoso/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://purl.org/twc/hub/sparql/> a sd:Service ;
+	sd:endpoint "http://purl.org/twc/hub/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://purl.org/weso/sparql/> a sd:Service ;
+	sd:endpoint "http://purl.org/weso/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rae2001.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://rae2001.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rdf.disgenet.org/sparql//> a sd:Service ;
+	sd:endpoint "http://rdf.disgenet.org/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rdf.farmbio.uu.se/chembl/sparql/> a sd:Service ;
+	sd:endpoint "http://rdf.farmbio.uu.se/chembl/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rdf.muninn-project.org/sparql/> a sd:Service ;
+	sd:endpoint "http://rdf.muninn-project.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rdf.myexperiment.org/sparql//> a sd:Service ;
+	sd:endpoint "http://rdf.myexperiment.org/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rdfabout.com/sparql/> a sd:Service ;
+	sd:endpoint "http://rdfabout.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://reactome.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://reactome.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://resex.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://resex.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale/> a sd:Service ;
+	sd:endpoint "http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit/> a sd:Service ;
+	sd:endpoint "http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/lithology/> a sd:Service ;
+	sd:endpoint "http://resource.geolba.ac.at/PoolParty/sparql/lithology" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit/> a sd:Service ;
+	sd:endpoint "http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://resrev.ilrt.bris.ac.uk/data-server-workshop/sparql/> a sd:Service ;
+	sd:endpoint "http://resrev.ilrt.bris.ac.uk/data-server-workshop/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://revyu.com/sparql/> a sd:Service ;
+	sd:endpoint "http://revyu.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://rhea.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://rhea.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ring.ciard.net/sparql1/> a sd:Service ;
+	sd:endpoint "http://ring.ciard.net/sparql1" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://risks.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://risks.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://river.styx.org/sparql/> a sd:Service ;
+	sd:endpoint "http://river.styx.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://roma.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://roma.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://roni.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://roni.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ruian.linked.opendata.cz/sparql/> a sd:Service ;
+	sd:endpoint "http://ruian.linked.opendata.cz/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sabiork.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://sabiork.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://seek.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://seek.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semantic-web-journal.com:3030/sparql.tpl/> a sd:Service ;
+	sd:endpoint "http://semantic-web-journal.com:3030/sparql.tpl" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semantic.ckan.net/sparql//> a sd:Service ;
+	sd:endpoint "http://semantic.ckan.net/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semantic.eea.europa.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://semantic.eea.europa.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semanticweb.cs.vu.nl/dss/sparql//> a sd:Service ;
+	sd:endpoint "http://semanticweb.cs.vu.nl/dss/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semanticweb.cs.vu.nl/europeana/sparql//> a sd:Service ;
+	sd:endpoint "http://semanticweb.cs.vu.nl/europeana/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semanticweb.cs.vu.nl/iati/sparql//> a sd:Service ;
+	sd:endpoint "http://semanticweb.cs.vu.nl/iati/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql//> a sd:Service ;
+	sd:endpoint "http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://serendipity.utpl.edu.ec/lod/sparql/> a sd:Service ;
+	sd:endpoint "http://serendipity.utpl.edu.ec/lod/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/business/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/business/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/education/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/education/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/environment/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/environment/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/patents/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/patents/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/reference/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/reference/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/research/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/research/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/statistics/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/statistics/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov.uk/transport/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov.uk/transport/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.data.gov/sparql/> a sd:Service ;
+	sd:endpoint "http://services.data.gov/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://services.insemtives.eu/forest/sparql/> a sd:Service ;
+	sd:endpoint "http://services.insemtives.eu/forest/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://setaria.oszk.hu/sparql/> a sd:Service ;
+	sd:endpoint "http://setaria.oszk.hu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sgd.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://sgd.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sider.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://sider.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://skos.um.es/sparql//> a sd:Service ;
+	sd:endpoint "http://skos.um.es/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://smartcity.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://smartcity.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://smartlink.open.ac.uk/smartlink/sparql/> a sd:Service ;
+	sd:endpoint "http://smartlink.open.ac.uk/smartlink/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://soa4all.isoco.net/luf/sparql/> a sd:Service ;
+	sd:endpoint "http://soa4all.isoco.net/luf/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://socialarchive.iath.virginia.edu/sparql/eac/> a sd:Service ;
+	sd:endpoint "http://socialarchive.iath.virginia.edu/sparql/eac" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://socialarchive.iath.virginia.edu/sparql/snac-viaf/> a sd:Service ;
+	sd:endpoint "http://socialarchive.iath.virginia.edu/sparql/snac-viaf" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sonicbanana.cs.wright.edu:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://sonicbanana.cs.wright.edu:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://southampton.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://southampton.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.contextdatacloud.org/> a sd:Service ;
+	sd:endpoint "http://sparql.contextdatacloud.org" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.data.southampton.ac.uk//> a sd:Service ;
+	sd:endpoint "http://sparql.data.southampton.ac.uk/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.jesandco.org:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://sparql.jesandco.org:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.kupkb.org/sparql/> a sd:Service ;
+	sd:endpoint "http://sparql.kupkb.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/cap/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/cap" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/grrp/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/grrp" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/grrt/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/grrt" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/istat/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/istat" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/loc/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/loc" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/los/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/los" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/musei/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/musei" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.linkedopendata.it/scuole/> a sd:Service ;
+	sd:endpoint "http://sparql.linkedopendata.it/scuole" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.msc2010.org/> a sd:Service ;
+	sd:endpoint "http://sparql.msc2010.org" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.neurocommons.org:8890/nsparql//> a sd:Service ;
+	sd:endpoint "http://sparql.neurocommons.org:8890/nsparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.openmobilenetwork.org/> a sd:Service ;
+	sd:endpoint "http://sparql.openmobilenetwork.org" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.reegle.info//> a sd:Service ;
+	sd:endpoint "http://sparql.reegle.info/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.sindice.com/sparql/> a sd:Service ;
+	sd:endpoint "http://sparql.sindice.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.wikipathways.org//> a sd:Service ;
+	sd:endpoint "http://sparql.wikipathways.org/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sparql.yovisto.com//> a sd:Service ;
+	sd:endpoint "http://sparql.yovisto.com/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://spatial.ucd.ie/lod/sparql/> a sd:Service ;
+	sd:endpoint "http://spatial.ucd.ie/lod/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://spending.lichfielddc.gov.uk/sparql/> a sd:Service ;
+	sd:endpoint "http://spending.lichfielddc.gov.uk/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://spike.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://spike.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://sw.unime.it:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://sw.unime.it:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://symbolicdata.org:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://symbolicdata.org:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://taxonomy.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://taxonomy.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://telegraphis.net/data/countries/sparql/> a sd:Service ;
+	sd:endpoint "http://telegraphis.net/data/countries/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://tkm.kiom.re.kr/ontology/sparql/> a sd:Service ;
+	sd:endpoint "http://tkm.kiom.re.kr/ontology/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://tour-pedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://tour-pedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://transparency.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://transparency.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://tsu.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://tsu.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://tuskegee.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://tuskegee.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://twarql.org:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://twarql.org:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://uccaribe.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://uccaribe.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://uis.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://uis.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://ulm.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://ulm.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://unlocode.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://unlocode.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://unodc.publicdata.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://unodc.publicdata.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://upr.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://upr.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://utep.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://utep.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://utsa.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://utsa.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://virtuoso-eurosentiment.paradigmatecnologico.com/sparql/> a sd:Service ;
+	sd:endpoint "http://virtuoso-eurosentiment.paradigmatecnologico.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://visualdataweb.infor.uva.es/sparql/> a sd:Service ;
+	sd:endpoint "http://visualdataweb.infor.uva.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocab.getty.edu/sparql/> a sd:Service ;
+	sd:endpoint "http://vocab.getty.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocab.nerc.ac.uk/sparql//> a sd:Service ;
+	sd:endpoint "http://vocab.nerc.ac.uk/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam/> a sd:Service ;
+	sd:endpoint "http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData/> a sd:Service ;
+	sd:endpoint "http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocabulary.semantic-web.at/PoolParty/sparql/semweb/> a sd:Service ;
+	sd:endpoint "http://vocabulary.semantic-web.at/PoolParty/sparql/semweb" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocabulary.wolterskluwer.de/PoolParty/sparql/arbeitsrecht/> a sd:Service ;
+	sd:endpoint "http://vocabulary.wolterskluwer.de/PoolParty/sparql/arbeitsrecht" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://vocabulary.wolterskluwer.de/PoolParty/sparql/court/> a sd:Service ;
+	sd:endpoint "http://vocabulary.wolterskluwer.de/PoolParty/sparql/court" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://webconf.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://webconf.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://webenemasuno.linkeddata.es/sparql/> a sd:Service ;
+	sd:endpoint "http://webenemasuno.linkeddata.es/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://webscience.rkbexplorer.com/sparql/> a sd:Service ;
+	sd:endpoint "http://webscience.rkbexplorer.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://wiki.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://wiki.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://wikipathways.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://wikipathways.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://wiktionary.dbpedia.org/sparql/> a sd:Service ;
+	sd:endpoint "http://wiktionary.dbpedia.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://wordnet.okfn.gr:8890/sparql//> a sd:Service ;
+	sd:endpoint "http://wordnet.okfn.gr:8890/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://wordnet.rkbexplorer.com/sparql//> a sd:Service ;
+	sd:endpoint "http://wordnet.rkbexplorer.com/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://worldbank.270a.info/sparql/> a sd:Service ;
+	sd:endpoint "http://worldbank.270a.info/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://wormbase.bio2rdf.org/sparql/> a sd:Service ;
+	sd:endpoint "http://wormbase.bio2rdf.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.archivesdefrance.culture.gouv.fr/thesaurus/sparql/> a sd:Service ;
+	sd:endpoint "http://www.archivesdefrance.culture.gouv.fr/thesaurus/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.auth.gr/sparql/> a sd:Service ;
+	sd:endpoint "http://www.auth.gr/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.ebi.ac.uk/rdf/services/atlas/sparql/> a sd:Service ;
+	sd:endpoint "http://www.ebi.ac.uk/rdf/services/atlas/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.eclap.eu/sparql/> a sd:Service ;
+	sd:endpoint "http://www.eclap.eu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.icane.es/opendata/sparql/> a sd:Service ;
+	sd:endpoint "http://www.icane.es/opendata/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.imagesnippets.com/sparql/images/> a sd:Service ;
+	sd:endpoint "http://www.imagesnippets.com/sparql/images" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.lesliesikos.com/sparql-endpoint//> a sd:Service ;
+	sd:endpoint "http://www.lesliesikos.com/sparql-endpoint/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.linklion.org:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://www.linklion.org:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.open-biomed.org.uk/sparql/endpoint/bdgp_20081030/> a sd:Service ;
+	sd:endpoint "http://www.open-biomed.org.uk/sparql/endpoint/bdgp_20081030" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.open-biomed.org.uk/sparql/endpoint/flyatlas/> a sd:Service ;
+	sd:endpoint "http://www.open-biomed.org.uk/sparql/endpoint/flyatlas" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.open-biomed.org.uk/sparql/endpoint/flybase/> a sd:Service ;
+	sd:endpoint "http://www.open-biomed.org.uk/sparql/endpoint/flybase" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.open-biomed.org.uk/sparql/endpoint/flyted/> a sd:Service ;
+	sd:endpoint "http://www.open-biomed.org.uk/sparql/endpoint/flyted" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.open-biomed.org.uk/sparql/endpoint/tcm/> a sd:Service ;
+	sd:endpoint "http://www.open-biomed.org.uk/sparql/endpoint/tcm" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.opmw.org/sparql/> a sd:Service ;
+	sd:endpoint "http://www.opmw.org/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.rdfabout.com/sparql/> a sd:Service ;
+	sd:endpoint "http://www.rdfabout.com/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.rechercheisidore.fr/sparql/> a sd:Service ;
+	sd:endpoint "http://www.rechercheisidore.fr/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www.sparql.org/sparql.html/> a sd:Service ;
+	sd:endpoint "http://www.sparql.org/sparql.html" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/cordis/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/cordis/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/dailymed/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/dailymed/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/dblp/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/dblp/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/diseasome/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/diseasome/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/drugbank/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/drugbank/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/eccompetition/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/eccompetition/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/euraxess/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/euraxess/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/eures/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/eures/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/eurostat/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/eurostat/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/factbook/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/factbook/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/gutendata/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/gutendata/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/medicare/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/medicare/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/sider/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/sider/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://www4.wiwiss.fu-berlin.de/stitch/sparql/> a sd:Service ;
+	sd:endpoint "http://www4.wiwiss.fu-berlin.de/stitch/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://xula.eagle-i.net/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "http://xula.eagle-i.net/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://zaire.dimis.fim.uni-passau.de:8890/sparql/> a sd:Service ;
+	sd:endpoint "http://zaire.dimis.fim.uni-passau.de:8890/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://zbw.eu/beta/sparql/stw/query/> a sd:Service ;
+	sd:endpoint "http://zbw.eu/beta/sparql/stw/query" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<http://zhishi.me/sparql/> a sd:Service ;
+	sd:endpoint "http://zhishi.me/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://data.ox.ac.uk/sparql//> a sd:Service ;
+	sd:endpoint "https://data.ox.ac.uk/sparql/" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://dbmi-icode-01.dbmi.pitt.edu/dikb/sparql/> a sd:Service ;
+	sd:endpoint "https://dbmi-icode-01.dbmi.pitt.edu/dikb/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://dbmi-icode-01.dbmi.pitt.edu/sparql/> a sd:Service ;
+	sd:endpoint "https://dbmi-icode-01.dbmi.pitt.edu/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://eagle-i.ea.vanderbilt.edu/sparqler/sparql/> a sd:Service ;
+	sd:endpoint "https://eagle-i.ea.vanderbilt.edu/sparqler/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://www.ebi.ac.uk/rdf/services/biomodels/sparql/> a sd:Service ;
+	sd:endpoint "https://www.ebi.ac.uk/rdf/services/biomodels/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://www.ebi.ac.uk/rdf/services/biosamples/sparql/> a sd:Service ;
+	sd:endpoint "https://www.ebi.ac.uk/rdf/services/biosamples/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://www.ebi.ac.uk/rdf/services/chembl/sparql/> a sd:Service ;
+	sd:endpoint "https://www.ebi.ac.uk/rdf/services/chembl/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
+
+<https://www.ebi.ac.uk/rdf/services/reactome/sparql/> a sd:Service ;
+	sd:endpoint "https://www.ebi.ac.uk/rdf/services/reactome/sparql" ;
+	wdrs:describedby <http://localhost#%3C%3E> .
